@@ -27,6 +27,7 @@ The project is based on the **CarDekho Used Car Dataset** containing information
 ```text
 Predict-Car-Resale/
 │
+|
 ├── car data.csv
 ├── processed_car_data.csv
 │
