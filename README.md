@@ -25,16 +25,15 @@ The project is based on the **CarDekho Used Car Dataset** containing information
 ## 📂 Project Structure
 
 ```text
-Used_Car_Price_Prediction/
+Predict-Car-Resale/
 │
 ├── car data.csv
 ├── processed_car_data.csv
 │
-├── Part1_EDA.ipynb
-├── Part2_Feature_Engineering.ipynb
+├── part1_data_understanding.ipynb
+├── Part2_data_preprocessing.ipynb
 ├── Part3_Model_Building.ipynb
-├── Part4_Hyperparameter_Tuning.ipynb
-├── Part5_Prediction.ipynb
+├── Part4_Prediction.ipynb
 │
 ├── random_forest_model.joblib
 ├── README.md
@@ -144,7 +143,7 @@ Random Forest provides feature importance scores, helping identify which input v
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Used-Car-Price-Prediction.git
+git clone https://github.com/Aryan8953/Predict-Car-Resale.git
 ```
 
 ### 2. Install Dependencies
@@ -157,11 +156,10 @@ pip install -r requirements.txt
 
 Execute the notebooks in the following order:
 
-1. Part1_EDA.ipynb
-2. Part2_Feature_Engineering.ipynb
+1. part1_data_understanding.ipynb
+2. Part2_data_preprocessing.ipynb
 3. Part3_Model_Building.ipynb
-4. Part4_Hyperparameter_Tuning.ipynb
-5. Part5_Prediction.ipynb
+4. Part4_Prediction.ipynb
 
 ---
 
